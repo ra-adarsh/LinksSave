@@ -1,0 +1,53 @@
+body {
+    padding: 10px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    min-width: 400px;
+}
+
+#input-el {
+    width: 100%;
+    padding: 10px;
+    box-sizing:border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 10px;
+}
+
+#save-tab-btn {
+    background-color: #5f9341;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+}
+
+#input-btn, #delete-btn:active {
+    background-color: #5f9341;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+}
+
+#delete-btn, #input-btn:active, #save-tab-btn:active {
+    background-color: #ffffff;
+    color: #5f9341;
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0px;
+}
+
+li {
+    margin: 10px 0px;
+}
+
+li a {
+    color: #5f9341;
+}
